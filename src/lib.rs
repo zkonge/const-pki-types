@@ -1,5 +1,5 @@
 #![no_std]
-use rustls_pki_types::{Der, TrustAnchor};
+pub use rustls_pki_types::{Der, TrustAnchor};
 
 // parse the DER encoded TLV
 // input is a slice of bytes, includes the DER encoded TLV

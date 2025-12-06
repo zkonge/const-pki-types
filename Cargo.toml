@@ -2,11 +2,11 @@
 name = "const-pki-types"
 description = "Converting X.509 certificates to the TrustAnchor in rustls-pki-types at compile time"
 version = "0.0.0"
-edition = "2021"
+edition = "2024"
 
 [dependencies]
-rustls-pki-types = { version = "1.10.0", default-features = false }
+rustls-pki-types = { version = "1.13.1", default-features = false }
 
 [dev-dependencies]
-webpki-root-certs = "0.26.7"
-webpki-roots = "0.26.7"
+webpki-root-certs = "1.0.4"
+webpki-roots = "1.0.4"
